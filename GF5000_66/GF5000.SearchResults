@@ -1,0 +1,10 @@
+---- mMap Matches (10 in 2 files) ----
+Satdata.cpp (model):    if(mMap.contains(nStr)){//如果Map里存在该字段
+Satdata.cpp (model):        QList<DataObserver*> *nList = &mMap[nStr];//提取该字段的观察者列表
+Satdata.cpp (model):        mMap[nStr] = nList;
+Satdata.cpp (model):    for(nMapIter = mMap.begin(); nMapIter != mMap.end(); nMapIter++){//遍历Map里的所有字段
+Satdata.cpp (model):    if(mMap.contains(nStr)){//如果Map里存在该字段
+Satdata.cpp (model):        QList<DataObserver*> *nList = &mMap[nStr];//得到字段的观察者列表指针
+Satdata.cpp (model):    if(mMap.contains(nStr)){//如果Map存在该字段
+Satdata.cpp (model):        QList<DataObserver*> nList = mMap[nStr];//获取字段观察者列表
+Satdata.h (model):    QMap<QString,QList<DataObserver*> >  mMap;//字段-观察者

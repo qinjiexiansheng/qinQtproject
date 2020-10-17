@@ -1,0 +1,4 @@
+---- get Matches (3 in 1 files) ----
+makeExifFile in fileope.cpp (uitls) :     //since we dont know the offset lets put 0x0000 as an offset, later when get to know the
+makeNewSatJpgFromBuf in fileope.cpp (uitls) :                 printf("++++++get file size %d\n", src_size);
+makeNewSatJpgFromBuf in fileope.cpp (uitls) :                 printf("++++++get file size failed++++%s,%d\n", __FILE__, __LINE__);

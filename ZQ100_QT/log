@@ -1,0 +1,31 @@
+tmianpage.h
+++++++++++
+    //+++++++
+    void _initFpga();
+    initFpga* _initFpaga;
+
+++++++++++
+void TMainPage::keyPressEvent(QKeyEvent *e)
+
+    // Key_A show biao ding chuang kou
+    if(e->key() == Qt::Key_A){
+        globalClass::getTabDialog()->show();
+    }
+
+++++++
+TMainPage::TMainPage(QWidget *parent) :
+    QWidget(parent)
+
+ ++   _initFpga();
+
+
+++++
+docuement :
+fpga
+adjut
+
+globalclass.c
+initfpag.c
+globalclass.h
+initfpag.h
+

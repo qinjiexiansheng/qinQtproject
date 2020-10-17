@@ -1,0 +1,23 @@
+#ifndef TEMPADOPERATION_H
+#define TEMPADOPERATION_H
+
+#include <QObject>
+#include "satdata.h"
+
+class TempADOperation : public QObject
+{
+public:
+    TempADOperation(QObject *parent = 0) : QObject(parent){
+        mSatData = satData::initance();
+    }
+
+    void loadADTable();
+    void saveADTable();
+    void updateADTable();
+    void countTempAD();
+    void takeEffectADTable();
+private:
+     satData *mSatData;
+};
+
+#endif // TEMPADOPERATION_H
